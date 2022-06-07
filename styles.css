@@ -1,0 +1,83 @@
+/* add your CSS here */
+
+/* outline for each card */
+.card{
+    border: 1px solid #8080805e;
+    height: 685px;
+    width: 300px;
+    margin:auto;
+    padding: 10px;
+    box-shadow: 6px 6px 1px #8080802e;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+/* making the cards wrap around if browser shrinks */
+.multi_card{
+    display:flex;  
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+/* center everything */
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+/* Information on Cards */
+.Info{
+    padding:10px;
+    margin-top: 0;
+    border: 1px solid #8080805e;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:280px;
+}
+/* Creating spacing after the image */
+img{padding-bottom: 15px;}
+
+/* Creating spacing and Italic the words for Fun Fact */
+.fun_fact{
+    margin-top:0;
+    margin-bottom:0;
+    padding: 5px 0px 15px 0px;
+    font-style: italic;
+}
+
+/* Creating Spacing for Description */
+.description{
+    padding:15px 0px 15px 0px;
+    margin:0;
+}
+
+
+/* Creating Spacing for Header */
+h3{
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 15px 0 15px 0;
+}
+
+/* Zero out the UL */
+ul{
+   padding:0;
+   margin:0;
+}
+
+/* Delete the dots on the list*/
+li{
+    list-style: none;
+    
+}
+
+/* Bold out the Labels */
+span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Make shiny card (SS Rank)*/
+.dragon{background-color: gold;}
